@@ -1,0 +1,46 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #fff !important;
+}
+
+.nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav .enter{
+    display: flex;
+    padding-left: 3%;
+}
+.nav .enter img{
+    height: 25.000001907348633px;
+    width: 19.999996185302734px;
+}
+.menu{
+    padding-top: 1% !important;
+}
+.shares{
+    padding-top: 1%;
+}
+.aboutUs{
+    padding-top: 1%;
+}
+.logoImage img{
+    width: 60px;
+    height: 60px;
+}
+.contacts{
+    padding-top: 1%;
+}
+.enter{
+    padding-top: 1%;
+}
+.basket{
+    padding-top: 1%;
+}
+.map{
+    left: 40%;
+    top: 50%;
+    position: absolute;
+}

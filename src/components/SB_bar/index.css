@@ -1,0 +1,26 @@
+
+.sectionAboutUs{
+    background-color: #000;
+    margin-left: 5%;
+}
+.sectionAboutUs h1{
+    color: #ffff;
+    margin-left: 8%;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+}
+.divAboutUs{
+    display: flex;
+    justify-content: space-around;
+}
+.sectionAboutUs p{
+    font-size: 18px;
+    line-height: 28px;  
+    letter-spacing: 0.02em;
+    color: #ffff;
+    margin-left: -5%;
+}
+.sectionAboutUs img{
+    margin-left: 2.5%;
+}

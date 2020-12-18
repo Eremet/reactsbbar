@@ -1,0 +1,41 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+.secondCard{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.name{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.about{
+    margin-left: 11%;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.price{
+    margin-top: 15%;
+    margin-left: 1%;
+    color: green;
+}
+.pastPrice{
+    margin-top: 22.8%;
+    margin-left: -90%;
+    color: red;
+    font-size: 20px;
+}
+.secondCard img{
+    margin-left: 20%;
+}
+.secondCard button{
+    height: 50px;
+    width: 200px;
+    margin-top: 16%;
+    margin-left: -15%;
+}

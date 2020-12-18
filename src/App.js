@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Basket from './components/Basket'
+import Contacts from './components/Contacts'
+import Menu from './components/Menu'
+import SB_bar from './components/SB_bar'
+import Shares from './components/Shares'
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <BrowserRouter>
+    <Header/>
+    <Switch>
+      <Route path='/SB_bar' exact component={SB_bar}/> 
+
+      <Route path='/Shares' exact component={Shares}/>
+
+      <Route path='/Menu' exact component={Menu}/>
+
+      {/* <Route path='/Contacts' exact component={Contacts}/>
+
+      <Route path='/Basket' exact component={Basket}/> */}
+
+    </Switch>
+      <Footer/>
+    </BrowserRouter>
+      
     </div>
   );
 }

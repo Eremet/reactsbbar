@@ -1,0 +1,122 @@
+html, body{
+    padding: auto;
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #000 !important;
+}
+.sectionPharagraph{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 2;
+}
+.workTime{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.time{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 58.5%;
+}
+.days{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 61%;
+}
+.phone{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+}
+.firstPhone{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 74%;
+}
+.secondPhone{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 77%;
+}
+.adres{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 91%;
+}
+.city{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 95%;
+}
+.instagramImage{
+    position: absolute;
+    left: 5%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.whatsappImage{
+    position: absolute;
+    left: 10%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.facebookImage{
+    position: absolute;
+    left: 15%;
+    top: 108%;
+    width: 40px;
+    height: 40px;
+}
+.pist{
+    position: absolute;
+    left: -1%;
+    top: 15%;
+}
+.pist2{
+    position: absolute;
+    left: 40%;
+    top: 114%;
+}
